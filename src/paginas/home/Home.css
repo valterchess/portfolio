@@ -1,6 +1,18 @@
-.img{
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
+.caixa{
+    background-color: #34495e;
+}
+
+.titulo{
+    color: white!important;
+    font-weight: bold!important;
+}
+
+.botao{
+    border-color: white!important;
+    background-color: #34495e;
+    color: white!important;
+}
+
+.postagens{
+    background-color: white;
 }
