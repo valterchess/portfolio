@@ -6,7 +6,6 @@ import Home from './paginas/home/Home';
 import Login from './paginas/login/Login';
 import CadastroUsuario from './paginas/cadastro-usuario/CadastroUsuario';
 import './App.css';
-import CadastroUsuario from './paginas/cadastro-usuario/CadastroUsuario';
 
 function App() {
   return (

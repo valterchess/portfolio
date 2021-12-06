@@ -1,4 +1,4 @@
-.imagem2{
+    .imagem2{
     background-image: url(https://i.imgur.com/t2aqyYA.jpg);
     background-repeat: no-repeat;
     width: 100vh;
@@ -13,4 +13,7 @@
 
 .btnCancelar{
     margin-right: 20px !important;
+    background-color: aliceblue !important;
+    border-color: #424242 !important;
+    color: #424242 !important;
 }
