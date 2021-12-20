@@ -1,5 +1,3 @@
-
-  
 import Tema from './Tema'
 
 interface Postagem{
