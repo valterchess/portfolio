@@ -1,3 +1,14 @@
+.header{
+    background-color: #95a5a6 !important;
+    transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.tooHeader{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .cursor{
     cursor: pointer;
     color: white;

@@ -1,22 +1,37 @@
-.caixa{
-    background-color: #3F51B5;
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap%27);
+
+:root {
+    --main-bg-blue: #2c3e50;
+    --main-bg-grey: #95a5a6;
 }
 
-.titulo{
-   color: white !important;
-   font-weight: bold !important;
-}
-
-.botao{
-    border-color: white !important;
-    background-color: #3F51B5;
-    color: white !important;
-}
-
-.postagens{
-    background-color: white;
-}
-
-.text-decorator-none{
+.bot {
     text-decoration: none;
+    border-color: #fafafa;
+    background: #fafafa !important;
+    color: #f99e29 !important;
+    padding-left: 7;
+}
+
+.bot2 {
+    text-decoration: none;
+    border: 1px solid #424242 !important;
+    border-radius: 8%;
+    background: var(--main-bg-grey) !important;
+    color: var(--main-bg-blue) !important;
+    padding-left: 7px;
+    padding-top: 4px;
+}
+
+.text-decorator-none {
+    text-decoration: none;
+}
+
+.font {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.teste {
+    display: flex !important;
+    justify-content: flex-end;
 }
