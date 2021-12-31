@@ -25,11 +25,11 @@
     padding-right: 8px !important;
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-between !important;
 }
 
 .redes {
-    font-size: 40px !important;
+    font-size: 36px !important;
     color: var(--main-bg-blue);
 }
 

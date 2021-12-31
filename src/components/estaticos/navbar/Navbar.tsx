@@ -39,7 +39,8 @@ function Navbar() {
                 <Link to='/home' className='text-decorator-none'>
                     <Box paddingLeft={4}>
                         <Box>
-                            <img src="https://i.imgur.com/uqvKWhz.png" alt="V S" style={{ width: "25vh", height: "5vh" }} />
+                            <Typography className='font' variant="h4" gutterBottom color="textPrimary" component="h4" align="left" style={{ color: "blak", fontWeight: "bold" }}>Valter Silva</Typography>
+                            <Typography className='font' variant="h6" gutterBottom color="textPrimary" component="h6" align="left" style={{ color: "black", fontWeight: "bold" }}>Desenvolvedor 💻</Typography>
                         </Box>
                     </Box>
                 </Link>
@@ -74,7 +75,7 @@ function Navbar() {
                     </Link>
                     <Box mx={1} className='cursor' onClick={goLogout}>
                         <Typography variant="h6" color="inherit">
-                            logout
+                            sair
                         </Typography>
                     </Box>
 
@@ -87,8 +88,9 @@ function Navbar() {
             <Toolbar className='tooHeader'>
                 <Link to='/home' className='text-decorator-none'>
                     <Box paddingLeft={1}>
-                        <Box>
-                            <img src="https://i.imgur.com/uqvKWhz.png" alt="V S" style={{ width: "15vh", height: "8vh" }} />
+                        <Box display="flex">
+                            <Typography className='font' variant="h5" gutterBottom color="textPrimary" component="h5" style={{ color: "black", fontWeight: "bold" }}>Valter Silva</Typography>
+                            <Typography className='font' variant="h6" gutterBottom color="textPrimary" component="h6" style={{ color: "black", paddingLeft: "12px" }}>Desenvolvedor 💻</Typography>
                         </Box>
                     </Box>
                 </Link>
@@ -96,40 +98,44 @@ function Navbar() {
                     <Link to="/home" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                home
+                                início
                             </Typography>
                         </Box>
                     </Link>
-                    <Link to="/sobre" className="text-decorator-none">
+                    <Link to="/login" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
-                            <Typography variant="h6" color="inherit">
-                                sobre
-                            </Typography>
+                            <Typography variant="h6" color="inherit">login</Typography>
                         </Box>
                     </Link>
-                    <Link to="/projetos" className="text-decorator-none">
+                    <Link to='/cadastrousuario' className="text-decorator-none">
                         <Box mx={1} className='cursor'>
-                            <Typography variant="h6" color="inherit">
-                                projetos
-                            </Typography>
+                            <Typography variant='h6' color="inherit">Cadastro</Typography>
                         </Box>
                     </Link>
-                    <Box mx={1} className='cursor' onClick={goLogout}>
-                        <Typography variant="h6" color="inherit">
-                            login
-                        </Typography>
-                    </Box>
                 </Box>
             </Toolbar>
         </AppBar>
     }
-
-
     return (
         <>
             {navbarComponent}
         </>
     )
 }
-
+/*{
+    <Link to="/sobre" className="text-decorator-none">
+    <Box mx={1} className='cursor'>
+        <Typography variant="h6" color="inherit">
+            sobre
+        </Typography>
+    </Box>
+</Link>
+<Link to="/projetos" className="text-decorator-none">
+    <Box mx={1} className='cursor'>
+        <Typography variant="h6" color="inherit">
+            projetos
+        </Typography>
+    </Box>
+</Link>
+}*/
 export default Navbar;
