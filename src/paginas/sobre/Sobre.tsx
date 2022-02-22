@@ -7,7 +7,7 @@ function Sobre(){
         <>
         <section id='sobre'>
             <Grid container direction="row" justifyContent="center" alignItems="center" style={{ backgroundColor: "#1e272e" }}>
-            <Grid item xs={5}>
+            <Grid item xs={5} sm={5} md={5} lg={5} xl={5}>
                     <Box paddingRight={19} paddingTop={10} paddingBottom={3} className='teste'>
                         <Box>
                             <a href="https://www.linkedin.com/in/valter-silva-5a44b1171/" target="_blank">
@@ -16,7 +16,7 @@ function Sobre(){
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item xs={7} >
+                <Grid item xs={7} sm={7} md={7} lg={7} xl={7} >
                     <Box paddingRight={3} paddingTop={10}>
                         <Typography className='font' variant="h4"  component="h4" align="center" style={{ color: "white", fontWeight: "bold" }}>Sobre mim</Typography>
                         <p className='font' style={{ color: "white", fontWeight: "bold" }}>
@@ -33,6 +33,9 @@ function Sobre(){
                             mas pretendo ir além e me tornar especialista e referência no desenvolvimento web back-end.
                             E também poder colaborar para o crescimento da comunidade como um todo e na evolução do mercado tecnológico no Brasil.
                         </p>
+                        <a href='https://drive.google.com/file/d/1fm4pLr6rFeSXJCMyYMjHWrTqeCbxixBX/view' className="text-decorator-none" target="_blank">
+                        <Button className='botCv' style={{ fontWeight: "bold" }}>Download CV</Button>
+                        </a>
                     </Box>
                 </Grid>
             </Grid>

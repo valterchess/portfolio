@@ -11,7 +11,7 @@ function Home() {
         <section id='home'>
             <Grid container className='base'>
                 <Navbar/>
-                <Grid item xs={10}>    
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Box paddingLeft={10} paddingTop={6}>
                     <Typography className='font' variant="h2" component="h2" align="left" style={{ color: "white", fontWeight: "bold" }}>Valter Silva</Typography>
                         <Typography className='font' variant="h5" component="h5" align="left" style={{ color: "#00ffea", fontWeight: "bold" }}>Desenvolvedor</Typography>

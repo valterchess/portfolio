@@ -20,7 +20,7 @@ function Navbar() {
                     </a>
                 </Box>
                 <Box display="flex" justifyContent="end">
-                    <a href='#home' className="text-decorator-noneNb">
+                    <a href='#home' className="text-decorator-noneNb" >
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit" className="navTxt">
                                 Home
