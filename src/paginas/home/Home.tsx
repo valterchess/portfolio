@@ -14,8 +14,7 @@ function Home() {
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Box paddingLeft={10} paddingTop={6}>
                     <Typography className='font' variant="h2" component="h2" align="left" style={{ color: "white", fontWeight: "bold" }}>Valter Silva</Typography>
-                        <Typography className='font' variant="h5" component="h5" align="left" style={{ color: "#00ffea", fontWeight: "bold" }}>Desenvolvedor</Typography>
-                        <Typography className='font' variant="h6" component="h6" align="left" style={{ color: "white", fontWeight: "bold" }}>Desenvolvedor web back-end java ☕</Typography>
+                        <Typography className='font' variant="h5" component="h5" align="left" style={{ color: "#00ffea", fontWeight: "bold" }}>Desenvolvedor Web Java ☕</Typography>
                         <Box paddingTop={2} paddingBottom={22} >
                             <Box>
                                 <a href='#sobre' className="text-decorator-none">
