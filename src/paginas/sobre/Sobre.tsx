@@ -26,7 +26,7 @@ function Sobre(){
                              e criativa. 
                              E também pela oportunidade de crescimento que a tecnologia nos proporciona.
                              Sigo diariamente evoluindo e buscando aprender novas ferramentas para a resolução de problemas
-                             e ampliar meus horizontes e conquistar meu espaço no desenvolvimento.
+                             e ampliar meus horizontes e conquistar meu espaço na programação.
                             <br/>
                             <br/>                                                                                                                                                                                                                                                                                                                                                                                                            
                             Atualmente estou cursando Análise e Desenvolvimento de Sistemas,
