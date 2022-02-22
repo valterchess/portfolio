@@ -1,0 +1,30 @@
+
+:root {
+    --main-bg-blue: #2c3e50;
+    --main-rd-grey: #95a5a6;
+
+}
+
+.redes {
+    font-size: 39px !important;
+    color: var(--main-rd-grey);
+}
+
+.tooHeader{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cursor{
+    cursor: pointer;
+    color: white;
+}
+
+.text-decorator-noneNb{
+    text-decoration:none;
+}
+
+.text-decorator-noneNb:hover{
+    text-decoration:overline #00ffea;
+}
