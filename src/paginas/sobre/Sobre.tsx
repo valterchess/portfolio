@@ -18,7 +18,7 @@ function Sobre(){
                 </Grid>
                 <Grid item xs={7} sm={7} md={7} lg={7} xl={7} >
                     <Box paddingRight={3} paddingTop={10}>
-                        <Typography className='font' variant="h4"  component="h4" align="center" style={{ color: "#006266", fontWeight: "bold" }}>Sobre mim</Typography>
+                        <Typography className='font' variant="h4"  component="h4" align="center" style={{ color: "#006266",textDecoration:"underline #20bf6b", fontWeight: "bold" }}>Sobre mim</Typography>
                         <p className='font' style={{ color: "white", fontWeight: "bold" }}>
                             Entrei na área de desenvolvimento 
                             por acreditar que através da tecnologia é possível desenvolver
