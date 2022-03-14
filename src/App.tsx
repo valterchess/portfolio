@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sobre from './paginas/sobre/Sobre';
+import ResponsiveAppBar from "./components/statics/nav/nav";
 // integração teste
 
 function App() {
@@ -15,14 +16,16 @@ function App() {
     <>
       <ToastContainer />
       <Router>
+        <ResponsiveAppBar />
         <Switch>
           <div style={{ minHeight: '100vh' }}>
             <Route exact path='/'>
-              <Home/>
-              <Sobre/>
+              <Home />
             </Route>
             <Route path='/home'>
-              <Home/>
+              <Home />
+            </Route>
+            <Route path='/sobre'>
               <Sobre/>
             </Route>
           </div>

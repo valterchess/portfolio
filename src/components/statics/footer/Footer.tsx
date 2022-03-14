@@ -9,7 +9,7 @@ function Footer() {
 
     return (
         <>
-            <Grid container className="gridFoter" item xs={12}>
+            <Grid container className="gridFoter">
                 <Box className='boxFooter1'>
                     <Typography variant="subtitle2" align="left" gutterBottom className='textos'>© 2022 Copyright:</Typography>
                 </Box>

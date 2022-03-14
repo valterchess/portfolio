@@ -15,8 +15,6 @@
 
 .boxFooter1 {
     position: flex;
-    padding-top: 1px !important;
-    padding-left: 7px !important;
     background-color: #1e272e;
     height: 40px !important;
 }

@@ -6,10 +6,9 @@
 }
 
 .base  {
-   background-image: url(https://i.imgur.com/vwXcqeS.png);
-   background-size:cover;
-   justify-content: space-around;
-   flex-direction:column;
+   background-color: #17191b;
+   align-items: center;
+   justify-content: center;
 }
 
 .bot2 {
@@ -17,9 +16,8 @@
     border-radius: 8%;
     background: #1e272e !important;
     color: white !important;
-    padding-left: 7px;
-    padding-top: 4px;
     transition: all 0.5s ease-in-out 0s;
+    font-weight: bold;
 }
 .bot2:hover{
     transform: scale(110%);
