@@ -13,7 +13,7 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 250;
+  --first-hue: 130;
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
@@ -335,7 +335,26 @@ img {
   transform: rotate(-90deg);
 }
 /*=============== BUTTONS ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .4s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+}
+
+.button--ghost{
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+}
 
 /*=============== ABOUT ===============*/
 
