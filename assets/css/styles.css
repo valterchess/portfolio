@@ -262,7 +262,7 @@ img {
 .home__handle {
   justify-self: center;
   width: 157px;
-  height: 223px;
+  height: 200px;
   background: linear-gradient(180deg,
       hsla(var(--first-hue), var(--sat), var(--lig), 1),
       hsla(var(--first-hue), var(--sat), var(--lig), .2));
@@ -357,8 +357,45 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about__img{
+  width: 220px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
 
+.about__data{
+  text-align: center;
+}
 
+.about__info{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+
+.about__box{
+  background-color: var(--container-color);
+  border-radius: .75rem .5rem;
+}
+
+.about__icon{
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: .5rem;
+}
+
+about__title{
+  font-size: var(--small-font-size);
+}
+
+.about__subtitle{
+  font-size: var(--tiny-font-size); 
+}
+
+.about__description{
+  margin-bottom: 2rem;
+}
 /*=============== SKILLS ===============*/
 
 
