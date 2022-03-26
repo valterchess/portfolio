@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/53379816?s=40&v=4" type="image/x-icon">
 
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title> Responsive portfolio website Ansel </title>
+    <title>Valter Silva - Java Developer </title>
 </head>
 
 <body>
@@ -26,6 +26,7 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">Valter</a>
+
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -33,25 +34,21 @@
                             <i class='bx bx-home-alt'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
                             <i class='bx bx-user'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class='bx bx-book'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#work" class="nav__link">
-                            <i class='bx bx-briefcase'></i>
+                            <i class='bx bx-briefcase-alt-2'></i>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class='bx bx-message-square-dots'></i>
@@ -73,39 +70,81 @@
                     <span class="home__greeting">Olá! Eu sou</span>
                     <h1 class="home__name">Valter Silva</h1>
                     <h3 class="home__education">java web developer ☕</h3>
-                    <div class="home__handle">
-                        <img src="./assets/img/perfil.png" alt="" class="home__img">
-                    </div>
                     <div class="home__buttons">
                         <a download="" href="./assets/pdf/Valter.pdf" class="button button--ghost">
                             Download CV
                         </a>
                         <a href="#about" class="button">About me</a>
                     </div>
+                </div>
 
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/valter-silva-5a44b1171/" class="home__social-link" target="_blank">
-                            <i class='bx bxl-linkedin-square'></i>
-                        </a>
-                        <a href="https://github.com/valterchess" class="home__social-link" target="_blank">
-                            <i class='bx bxl-github'></i>
-                        </a>
-                        <a href="https://gitlab.com/valterchess" class="home__social-link" target="_blank">
-                            <i class='bx bxl-gitlab'></i>
-                        </a>
-                    </div>
-                    <a href="#about" class="home__scroll">
-                        <i class='bx bx-mouse home__scroll-icon'></i>
-                        <span class="home__scroll-name">Scroll Down</span>
+                <div class="home__handle">
+                    <img src="./assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/valter-silva-5a44b1171/" class="home__social-link"
+                        target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/valterchess" class="home__social-link" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://gitlab.com/valterchess" class="home__social-link" target="_blank">
+                        <i class='bx bxl-gitlab'></i>
                     </a>
                 </div>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
             </div>
 
         </section>
 
         <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
+            <span class="section__subtitle">My intro</span>
+            <h2 class="section__title">About me</h2>
 
+            <div class="about__container container grid">
+                <img src="./assets/img/aboutme.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">looking for</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10 + projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Entrei na área de desenvolvimento por acreditar que através da tecnologia é possível desenvolver
+                        e conectar as pessoas e o mundo de forma inteligente, dinâmica e criativa. E também pela
+                        oportunidade de crescimento que a tecnologia nos proporciona. Sigo diariamente evoluindo e
+                        buscando aprender novas ferramentas para a resolução de problemas e ampliar meus horizontes e
+                        conquistar meu espaço na programação.
+
+                        Atualmente estou cursando Análise e Desenvolvimento de Sistemas, mas pretendo ir além e me
+                        tornar especialista e referência no desenvolvimento web back-end. E também poder colaborar para
+                        o crescimento da comunidade como um todo e na evolução do mercado tecnológico no Brasil.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
         </section>
 
         <!--=============== SKILLS ===============-->
