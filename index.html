@@ -67,7 +67,7 @@
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__data">
-                    <span class="home__greeting">Olá! Eu sou</span>
+                    <span class="home__greeting">Hello, I'm</span>
                     <h1 class="home__name">Valter Silva</h1>
                     <h3 class="home__education">java web developer ☕</h3>
                     <div class="home__buttons">
@@ -399,65 +399,118 @@
             <span class="section__subtitle">My portfolio</span>
             <h2 class="section__title">Recent Works</h2>
             <div class="work__filters">
-                <span class="work__item active-work">All</span>
-                <span class="work__item">API</span>
-                <span class="work__item">Fullstack</span>
-                <span class="work__item">Frontend</span>
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".api">Backend</span>
+                <span class="work__item" data-filter=".full">Fullstack</span>
+                <span class="work__item" data-filter=".front">Frontend</span>
             </div>
 
             <div class="work__container container grid">
 
-                <div class="work__card">
-                    <img src="assets/img/work1.jpg" alt="" class="work__img">
 
-                    <h3 class="work__title">Fullstack</h3>
 
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-                <div class="work__card">
-                    <img src="assets/img/work2.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Frontend</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-                <div class="work__card">
-                    <img src="assets/img/work3.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Api</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-                <div class="work__card">
-                    <img src="assets/img/work4.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Api</h3>
-
-                    <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
-                    </a>
-                </div>
-
-                <div class="work__card">
+                <div class="work__card mix front">
                     <img src="assets/img/work5.jpg" alt="" class="work__img">
 
                     <h3 class="work__title">Frontend</h3>
 
                     <a href="#" class="work__button">
-                        Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
                     </a>
                 </div>
 
+                <div class="work__card mix front">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Frontend</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix full">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Fullstack</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://valterchess.herokuapp.com/swagger-ui/" class="work__button">
+                        Valter Chess( admin: root. pass: root) <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://peoplemanage.herokuapp.com/swagger-ui/#/" class="work__button">
+                        people manager - ( admin: root. pass: root) <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://github.com/valterchess/digital-wallet" class="work__button">
+                        digital-wallet <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://github.com/valterchess/loja-games" class="work__button">
+                        loja-games <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://github.com/valterchess/farmacia-gen" class="work__button">
+                        farmacia-gen <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://github.com/valterchess/farmacia-gen" class="work__button">
+                        starter: TypeScript API + Nest.js <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix api">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Backend</h3>
+
+                    <a href="https://github.com/valterchess/loteria-basica-api" class="work__button">
+                        número de loteria api <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </a>
+                </div>
+                
             </div>
+            <!--  -->
 
         </section>
 
@@ -484,7 +537,7 @@
     <script src=""></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
