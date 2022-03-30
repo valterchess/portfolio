@@ -83,8 +83,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s;
-  /* for light mode animation */
+  transition: .4s; /* for light mode animation */
 }
 
 h1, h2, h3 {
@@ -168,6 +167,7 @@ img {
   width: 100%;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
+  transition: .4s; /*for light mode animation*/
 }
 
 .nav {
@@ -203,9 +203,10 @@ img {
   align-items: center;
 }
 
+/* alterado pode ser necessário voltar ao commit anterior*/
 .nav__link {
   color: var(--text-color);
-  font-size: 1.25rem;
+  font-size: 1.24rem;
   padding: .4rem;
   display: flex;
   border-radius: 5rem;
@@ -216,7 +217,7 @@ img {
   background: linear-gradient(180deg,
       hsla(var(--first-hue), var(--sat), var(--lig), 1),
       hsla(var(--first-hue), var(--sat), var(--lig), .2));
-  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
+  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .2);
 }
 
 
@@ -321,7 +322,7 @@ img {
 
 .home__scroll{
   color: var(--first-color);
-  right: 1.5rem;
+  right: -1.5rem;
   bottom: 4rem;
   display: grid;
   row-gap: 2.25rem;
@@ -329,7 +330,7 @@ img {
 }
 
 .home__scroll-icon{
-  font-size: 1.25rem;
+  font-size: 1.24rem;
 }
 
 .home__scroll-name{
@@ -359,6 +360,10 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about__container{
+  row-gap: 2.5rem;
+}
+
 .about__img{
   width: 220px;
   border-radius: 1.5rem;
@@ -378,7 +383,8 @@ img {
 
 .about__box{
   background-color: var(--container-color);
-  border-radius: .75rem .5rem;
+  border-radius: .75rem;
+  padding: .75rem .5rem;
 }
 
 .about__icon{
@@ -387,7 +393,7 @@ img {
   margin-bottom: .5rem;
 }
 
-about__title{
+.about__title{
   font-size: var(--small-font-size);
 }
 
@@ -398,6 +404,7 @@ about__title{
 .about__description{
   margin-bottom: 2rem;
 }
+
 /*=============== SKILLS ===============*/
 .skills__container{
   row-gap: 2rem;
