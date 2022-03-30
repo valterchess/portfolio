@@ -1,13 +1,29 @@
-# 🔥 Responsive Portfolio Website Ansel
-## [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
-### 🔥 Responsive Portfolio Website
+# Portfolio Pessoal
 
-- Responsive Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+## Sobre
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+Portfolio pessoal para compartilhar a evolução em minha carreira, para compartilhar meus projetos e que funciona como 
+ambinente de contato
+Desenvolvido inicialmente em react como um blog consumindo de uma rest api.
+Atualizado e mais sofisticado, agora está desenvolvido com as tecnologias básicas da web.
 
-![preview img](/preview.png)
+### Tecnologias/Ferramentas Utilizadas
+
+- JavaScript
+- html
+- css
+- git
+- vscode
+
+### implementações futuras
+
+- troca de idioma
+
+## Autor
+
+### Valter Silva
+
+Linkedin:
+<https://www.linkedin.com/in/valter-silva-5a44b1171/>
+
+e-mail: valter.silva.dev@gmail.com
